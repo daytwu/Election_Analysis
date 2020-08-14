@@ -49,7 +49,19 @@ with open(file_to_load) as election_data:
         candidate_votes[candidate_name] += 1
 
 # Print the candidate vote dictionary.
-print(candidate_votes)
+
+
+with open(file_to_save, "w") as txt_file:
+        # Print the final vote count to the terminal.
+    election_results = (
+        f"Election Results\n"
+        f"---------------------------\n"
+        f"Total Votes: {total_votes:,}\n"
+        f"---------------------------\n"
+    )
+
+    print(election_results, end="")
+    txt_file.write(election_results)
 
 # Determine the percentage of votes for each candidate by looping through the counts.
 # Iterate through the candidate list.
@@ -57,6 +69,7 @@ print(candidate_votes)
 winning_count = 0
 winning_percentage = 0
 winning_candidate = ""
+candidate_results_sum = ""
 
 for candidate_name in candidate_votes:
     # Retrieve vote count of a candidate.
@@ -66,6 +79,23 @@ for candidate_name in candidate_votes:
 
     #  To do: print out each candidate's name, vote count, and percentage of
     # votes to the terminal.
+    
+
+        # Save the final vote count to the text file
+        
+    with open(file_to_save, "w") as txt_file:
+
+        candidate_results = (f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
+
+        print(candidate_results)
+        
+        candidate_results_sum = candidate_results_sum + candidate_results
+
+
+    # Add a vote to that candidate's count
+    candidate_votes[candidate_name] += 1
+    
+    # Save the results to our text file.
 
 
 
@@ -82,6 +112,8 @@ for candidate_name in candidate_votes:
 #  To do: print out the winning candidate, vote count and percentage to
 #   terminal.
 
+
+
 winning_candidate_summary = (
     f"----------------------\n"
     f"Winner: {winning_candidate}\n"
@@ -89,4 +121,8 @@ winning_candidate_summary = (
     f"Winning Percentage: {winning_percentage:.1f}%\n"
     f"----------------------\n")
 
-print(winning_candidate_summary)
+with open(file_to_save, "w") as txt_file:
+
+    f_text = (election_results + candidate_results_sum)
+    txt_file.write(f_text)
+
