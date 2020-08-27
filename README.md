@@ -16,27 +16,14 @@ Of the total 369,711 votes, 10.5% (38,855) of the votes are from Jefferson Count
 Denver County had by far, the largest amounts of votes cast in this election. At 306,055 votes, it is nearly 8 times more than Jefferson, the second largest county.
 
 - Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
-
+There are 3 candidates for this election. Candidate 1, Charles Casper Stockham, received 23.0% of the total votes cast (85,213). Candidate 2, Diana DeGette, received 73.8% of the votes casted (282,892). Candidate 3, Raymon Anthony Doane, received 3.1% of the votes casted (11,606).
 
 - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+Candidate 2, Diana DeGette is the winner of the election, with an overwhelming 73.8% (282,892) of the total votes casted, an absolute landslide victory.
 
 ## Resources
 - Data Source: election_results.csv
-- Software: Python 3.6.1, Visual Studio Code, 1.38.1
-
-## Summary
-The analysis of the elction show that:
-- There were "x" votes cast in the election.
-- The candidates were:
-  - Candidate 1
-  - Candidate 2
-  - Candidate 3
-- The candidate results were:
-  - Candidate 1 received "x%" of the vote and "y" number of votes.
-  - Candidate 2 received "x%" of the vote and "y" number of votes.
-  - Candidate 3 received "x%" of the vote and "y" number of votes.
- - The winner of the election was:
-  - Candidate (1, 2, or 3), who received "x%" of the vote and "y" number of votes.
+- Software: Python 3.7.6, Visual Studio Code, 1.38.1
   
   ## Challenge Overview
   
