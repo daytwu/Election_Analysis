@@ -23,6 +23,7 @@ Purpose of this eleciton audit analysis is to find out who the candidates are wi
   + Denver County had by far, the largest amounts of votes cast in this election. At 306,055 votes, it is nearly 8 times more than Jefferson, the second largest county.
 
 - Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+  
   There are 3 candidates for this election. 
   + Candidate 1, Charles Casper Stockham, received 23.0% of the total votes cast (85,213). 
   + Candidate 2, Diana DeGette, received 73.8% of the votes casted (282,892). 
