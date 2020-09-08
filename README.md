@@ -34,7 +34,7 @@ Purpose of this eleciton audit analysis is to find out who the candidates are wi
 
 ### Election-Audit Summary
 
-| file_to_load = os.path.join("Resources", "election_results.csv") |
+```file_to_load = os.path.join("Resources", "election_results.csv")```
 
 This script can be modified for any election as long as the .csv file path and name is known and the file data is understood correctly in terms of which columns contained what data. For the file path, this could be done within the same folder instead of declaring it within any other subfolders. The columns for the candidate names and the counties are currently set to columns 1 and 2 within the file, which means the script just needs to have the referenced columns updated to match any new files to be loaded into. Alternatively, this can be manually entered as an input box too.
 
