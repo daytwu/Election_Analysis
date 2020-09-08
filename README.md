@@ -1,9 +1,16 @@
 # Election_Analysis
 
 ## Project Overview
+
+### Overview of Election Audit
+
 A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local congressional election.
 
 Purpose of this eleciton audit analysis is to find out who the candidates are within this election and how many votes did each candidate get, as well as finding out which county participated the most in the election voting process.
+
+### Election Audit results
+
+<img width="248" alt="Election_audit screenshot" src="https://user-images.githubusercontent.com/68725398/92498929-3cdc1c00-f1c9-11ea-8052-ed5ad67cbe07.png">
 
 - How many votes were cast in this congressional election?
 
