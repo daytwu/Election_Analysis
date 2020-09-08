@@ -5,7 +5,7 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 
 Purpose of this eleciton audit analysis is to find out who the candidates are within this election and how many votes did each candidate get, as well as finding out which county participated the most in the election voting process.
 
-- How many votes were cast in this congressional election?
+##### How many votes were cast in this congressional election?
 
 There are a total of 369,711 votes cast in this congressional election.
 
