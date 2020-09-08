@@ -55,8 +55,18 @@ county_name = row[1]
 - Data Source: election_results.csv
 - Software: Python 3.7.6, Visual Studio Code, 1.38.1
   
-  ## Challenge Overview
-  
-  ## Challenge Summary
-  
+## Challenge Overview
+
+The steps for this challenge is as below:
+
+1. Locating the data that is to be analyzed
+2. Calculate the total votes casted in this election by looping through the data
+3. Get a complete list of the candidates that were voted on
+4. Calculate the total votes casted per candidates
+5. Calculate the percentage of vote for each of the candidates
+6. Check for the winner of this election (candidate with the most votes)
+7. Calculate the votes that were casted from each county
+8. Check for the largest county in this election
+9. List all the above data in an easy to read format within a .txt file
+
   
