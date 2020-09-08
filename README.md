@@ -2,13 +2,13 @@
 
 ## Project Overview
 
-#### Overview of Election Audit
+### Overview of Election Audit
 
 A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local congressional election.
 
 Purpose of this eleciton audit analysis is to find out who the candidates are within this election and how many votes did each candidate get, as well as finding out which county participated the most in the election voting process.
 
-#### Election Audit results
+### Election-Audit results
 
 <img width="248" alt="Election_audit screenshot" src="https://user-images.githubusercontent.com/68725398/92498929-3cdc1c00-f1c9-11ea-8052-ed5ad67cbe07.png">
 
@@ -31,6 +31,13 @@ Purpose of this eleciton audit analysis is to find out who the candidates are wi
 
 - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
   + Candidate 2, Diana DeGette is the winner of the election, with an overwhelming 73.8% (282,892) of the total votes casted, an absolute landslide victory.
+
+### Election-Audit Summary
+
+This script can be modified for any election as long as the .csv file path and name is known and the file data is understood correctly in terms of which columns contained what data. For the file path, this could be done within the same folder instead of declaring it within any other subfolders. The columns for the candidate names and the counties are currently set to columns 1 and 2 within the file, which means the script just needs to have the referenced columns updated to match any new files to be loaded into. Alternatively, this can be manually entered as an input box too.
+
+
+
 
 ## Resources
 - Data Source: election_results.csv
