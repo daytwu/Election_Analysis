@@ -42,14 +42,13 @@ file_to_load = os.path.join("Resources", "election_results.csv")
 
 The columns for the candidate names and the counties are currently set to columns 1 and 2 within the file as indicated with the code below, which means the script just needs to have the referenced columns updated to match any new files to be loaded into. Alternatively, this can be manually entered as an input box too.
 
+```
+# Get the candidate name from each row.
+candidate_name = row[2]
 
-        ```
-        # Get the candidate name from each row.
-        candidate_name = row[2]
-
-        # 3: Extract the county name from each row.
-        county_name = row[1]
-        ```
+# 3: Extract the county name from each row.
+county_name = row[1]
+```
 
 
 ## Resources
